@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tvDateAndtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="casual"
+        android:paddingLeft="5dp"
+        android:text="TextView"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvDateAndtime"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/round_corner2"
+        android:fontFamily="casual"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="TextView"
+        android:textSize="25sp" />
+</RelativeLayout>
